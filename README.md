@@ -28,7 +28,8 @@ Will output:
     background: green;
     color: white;
 }
-.notification--success .notification__title-bar,.notification--success .notification__title-bar h3{
+.notification--success .notification__title-bar,
+.notification--success .notification__title-bar h3{
     color: black;
 }
 .notification--success .notification__title-bar{
