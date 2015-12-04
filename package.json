@@ -1,5 +1,5 @@
 {
-  "name": "postcss-assemble-table-helper",
+  "name": "postcss-assemble-notification-helper",
   "version": "1.0.0",
   "description": "A PostCSS plugin that helps with the use of Assemble Notifications.",
   "keywords": [
