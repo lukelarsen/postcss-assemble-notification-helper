@@ -1,7 +1,7 @@
 [PostCSS]:                 https://github.com/postcss/postcss
 [Assemble]:                http://assemblecss.com
 
-# PostCSS Assemble Notification Header
+# PostCSS Assemble Notification Helper
 
 <img align="right" width="135" height="95"
      title="Philosopher’s stone, logo of PostCSS"
