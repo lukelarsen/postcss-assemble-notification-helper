@@ -13,21 +13,32 @@ This plugin will help set colors of notifications when using the [Assemble] fram
 
 ## Example
 ```css
-.table-cell-widths{
-    15: 15px;
-    half: 50%;
+.notification--success{
+    bg-color: green;
+    text-color: white;
+    title-bar-bg-color: orange;
+    title-bar-text-color: black;
 }
 ```
 
 Will output:
 
 ```css
-.t-15 {
-    width: 15px
+.notification--success{
+    background: green;
+    color: white;
 }
-
-.t-half {
-    width: 50%
+.notification--success .notification__title-bar,.notification--success .notification__title-bar h3{
+    color: black;
+}
+.notification--success .notification__title-bar{
+    background: orange;
+}
+.notification--success .iconic *{
+    fill: white;
+}
+.notification--success .notification-text{
+    color: white;
 }
 ```
 
