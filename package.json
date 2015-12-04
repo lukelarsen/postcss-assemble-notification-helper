@@ -1,0 +1,23 @@
+{
+  "name": "postcss-assemble-table-helper",
+  "version": "1.0.0",
+  "description": "A PostCSS plugin that helps with the use of Assemble Notifications.",
+  "keywords": [
+    "postcss",
+    "css",
+    "assemble"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Luke Larsen <luke@lukelarsen.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lukelarsen/postcss-assemble-notification-helper"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "postcss": "^5.0.11"
+  }
+}
