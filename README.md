@@ -1,5 +1,6 @@
 [PostCSS]:                 https://github.com/postcss/postcss
 [Assemble]:                http://assemblecss.com
+[Assemble Notifications]:  https://github.com/lukelarsen/assemble-notifications
 
 # PostCSS Assemble Notification Helper
 
@@ -45,4 +46,4 @@ Will output:
 
 ## Usage
 
-This plugin doesn't do much on it's own. It is part of a [PostCSS] framework called [Assemble]. This plugin is included in Assemble. For usage see [Assemble].
+This plugin doesn't do much on it's own. It is part of a [PostCSS] framework called [Assemble]. This plugin is included in [Assemble Notifications]. For usage see [Assemble Notifications].

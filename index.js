@@ -1,5 +1,4 @@
 var postcss = require('postcss');
-
 module.exports = postcss.plugin('assemble-notification-helper', function (options) {
     return function (css) {
 
@@ -19,6 +18,7 @@ module.exports = postcss.plugin('assemble-notification-helper', function (option
 
                     // Background
                     if (property == 'bg-color') {
+
                         // add background-color styles
                         decl.cloneBefore({ prop: 'background',  value: value });
 
@@ -75,7 +75,7 @@ module.exports = postcss.plugin('assemble-notification-helper', function (option
                     // Title Bar Color
                     if (property == 'title-bar-text-color') {
                         ruleSelectors = ruleSelectors.map(function(ruleSelector){
-                            return notificationRule + ' .notification__title-bar,' + notificationRule + ' .notification__title-bar h3';
+                            return notificationRule + ' .notification__title-bar,\n' + notificationRule + ' .notification__title-bar h3';
                         }).join(',\n');
 
                         newRule = origRule.cloneAfter({
